@@ -19,7 +19,5 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.nazbtn).setOnClickListener {
             findViewById<TextView>(R.id.etykietalbl).text = "Olivier van Overveld";
         }
-
-
     }
 }
