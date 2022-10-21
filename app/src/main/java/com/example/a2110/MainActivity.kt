@@ -16,7 +16,9 @@ class MainActivity : AppCompatActivity() {
             var text2 = findViewById<EditText>(R.id.teksttxt).text.toString();
             findViewById<TextView>(R.id.etykietalbl).text = text1 + text2;
         }
-
+        findViewById<Button>(R.id.nazbtn).setOnClickListener {
+            findViewById<TextView>(R.id.etykietalbl).text = "Olivier van Overveld";
+        }
 
 
     }
